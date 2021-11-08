@@ -1,0 +1,18 @@
+### GET Questions
+
+GET http://127.0.0.1:5000/api/questions
+Content-Type: application/json
+
+### Submit Question
+POST http://127.0.0.1:5000/api/questions
+Content-Type: application/json
+
+{
+    "name": "Anything", 
+    "content": "Where in the world are you coming from?"
+}
+
+### Delete Question
+
+DELETE http://127.0.0.1:5000/api/questions/6189a3bd8f7a3f081ee036d5
+Content-Type: application/json
